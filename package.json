@@ -1,0 +1,9 @@
+{
+  "name": "trendbaseai-india",
+  "version": "1.0.0",
+  "description": "TrendBaseAI India — Vercel serverless backend",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {}
+}
