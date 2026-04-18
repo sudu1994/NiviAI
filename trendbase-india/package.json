@@ -1,0 +1,11 @@
+{
+  "name": "trendbase-ai-backend",
+  "version": "1.0.0",
+  "description": "TrendBaseAI — Vercel serverless backend",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}

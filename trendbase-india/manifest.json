@@ -1,0 +1,18 @@
+{
+  "name": "[BRAND] India — Business Idea Validation",
+  "short_name": "[BRAND]",
+  "description": "Know if your business idea will make money in India. Real data + AI strategy in 10 seconds.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f14",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%234f46e5'/><text y='135' x='38' font-size='120' font-family='sans-serif' font-weight='900' fill='white'>B</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["business", "productivity", "finance"]
+}
