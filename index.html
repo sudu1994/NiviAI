@@ -362,13 +362,22 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.25rem 
   <h1>What's your<br><i>side-hustle idea?</i></h1>
   <p class="hero-sub">Type it below. Get a bare-bones India strategy tailored to your exact idea in seconds. Free, no signup.</p>
 
-  <div class="search-wrap">
-    <textarea id="search-box" class="search-box" placeholder="e.g. sell homemade candles on Instagram, tutor UPSC aspirants online, dropship ethnic jewellery on Meesho..." autocomplete="off" spellcheck="false" rows="1" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();runVal()}"></textarea>
-    <br>
-    <button class="search-btn" id="search-btn" onclick="runVal()">
+  <!-- Added style to the wrapper to force a vertical column -->
+<div class="search-wrap" style="display: flex; flex-direction: column; align-items: flex-end; gap: 10px;">
+    
+    <!-- Added width: 100% so the box fills the space -->
+    <textarea id="search-box" class="search-box" placeholder="e.g. sell homemade candles on Instagram..." 
+              style="width: 100%; box-sizing: border-box; resize: none;"
+              autocomplete="off" spellcheck="false" rows="1" 
+              onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();runVal()}">
+    </textarea>
+
+    <button class="search-btn" id="search-btn" onclick="runVal()" style="cursor: pointer;">
       <span id="search-btn-lbl">Analyse idea →</span>
     </button>
-  </div>
+
+</div>
+
 
   <div class="hero-chips">
     <button class="hchip" onclick="setIdea(this,'Online JEE / NEET tutoring')">JEE tutoring</button>
